@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sol Chuva</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+<header>
+<div class="logo" aria-hidden="true">⛅</div>
+<div><h1>Sol Chuva</h1><p>O tempo certo, onde você estiver</p></div>
+</header>
+
+<form id="form">
+<input id="cidade" type="text" placeholder="Digite uma cidade" value="Florianópolis" aria-label="Cidade">
+<button class="buscar" type="submit">Buscar</button>  </form>
+
+  <div class="chips" id="chips"></div>
+
+  <div id="erro" role="alert"></div>
+  <div id="carregando">Carregando dados do tempo…</div>
+  <div id="resultado"></div>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
